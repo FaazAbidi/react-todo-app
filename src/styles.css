@@ -1,0 +1,81 @@
+body {
+  background-color: navajowhite;
+  padding: 5% 30% 0 30%;
+  font-family: "Lucida Console";
+  text-align: center;
+}
+.Text {
+  text-align: left;
+  box-sizing: content-box;
+  padding: 1% 0 0 2%;
+}
+
+.checkBox {
+  content: "";
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #79b8f3;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 7px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.checkBox:checked {
+  display: block;
+  border: solid #0079bf;
+  box-sizing: border-box;
+  border-width: 0px 2px 1px 0px;
+  transform: rotate(30deg);
+}
+
+.nothing {
+  background-color: #15257a;
+  color: white;
+  font-size: 16px;
+  padding: 3% 2% 3% 2%;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: -1px 1px 6px black;
+  display: block;
+  margin: 5%;
+}
+
+.App {
+  background-color: #15257a;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  padding: 4% 3% 3% 6%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.5);
+  margin: 5%;
+}
+
+.addtodo {
+  background-color: #15257a;
+  border-style: none;
+  color: white;
+  padding: 2% 4% 2% 4%;
+  border-radius: 10px;
+  box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.5);
+  margin: 5%;
+}
+
+.AddTodoField {
+  color: black;
+  text-align: center;
+  margin: 0.01% 0 0 10%;
+  border-radius: 5px;
+  box-shadow: -1px 1px 6px black;
+  border: none;
+  padding: 2%;
+  width: 80%;
+  font-size: 16px;
+}
