@@ -17,7 +17,7 @@ export default class Todo extends React.Component {
     if (this.state.statuss === true) {
       this.fontS = "oblique";
       this.fontD = "line-through";
-      this.bC = "#BDC1D7";
+      this.bC = "transparent";
     } else {
       this.fontS = null;
       this.fontD = null;
