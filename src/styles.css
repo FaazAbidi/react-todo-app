@@ -13,18 +13,18 @@
 @keyframes hoverTodo {
   from {
     padding: 4% 3% 3% 6%;
-    font-size: 16px;
+    font-size: 20px;
     box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.5);
   }
   to {
-    padding: 5% 5% 5% 8%;
-    font-size: 22px;
+    padding: 4% 0% 3% 10%;
+    font-size: 30px;
     box-shadow: -1px 1px 12px rgba(0, 0, 0, 1);
   }
 }
 
 body {
-  padding: 5% 30% 0 30%;
+  padding: 5% 10% 0 10%;
   font-family: "Lucida Console";
   text-align: center;
   background: linear-gradient(-45deg, #83f8ee, #3ce775, #23a6d5, #fd7eec);
@@ -58,10 +58,10 @@ body {
 
 .checkBox:checked {
   display: block;
-  border: solid #0079bf;
+  border: solid #38fa49;
   box-sizing: border-box;
   border-width: 0px 2px 1px 0px;
-  transform: rotate(30deg);
+  transform: rotate(90deg);
 }
 
 .nothing {
@@ -84,18 +84,18 @@ body {
   background-color: #15257a;
   text-align: center;
   color: white;
-  font-size: 16px;
-  padding: 4% 3% 3% 6%;
+  font-size: 20px;
+  padding: 2.5% 3% 2.5% 6%;
   display: flex;
   flex-direction: row;
   border-radius: 10px;
-  box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.5);
-  margin: 5%;
+  box-shadow: -1px 1px 5px rgba(0, 0, 0, 1);
+  margin: 2%;
 }
 
 .App:hover {
   padding: 4% 3% 3% 6%;
-  font-size: 16px;
+  font-size: 20px;
   box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.5);
   animation: hoverTodo 150ms cubic-bezier(0.4, 0.26, 0, 0.97) 0s 1 normal
     forwards;
@@ -107,7 +107,7 @@ body {
   color: white;
   padding: 2% 4% 2% 4%;
   border-radius: 10px;
-  box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: -1px 1px 10px rgba(0, 0, 0, 1);
   margin: 5%;
 }
 
@@ -124,6 +124,7 @@ body {
 }
 
 .AddTodoField:focus {
+  color: rgb(4, 4, 54);
   box-shadow: -1px 1px 10px black;
   font-size: 20px;
 }
