@@ -13,7 +13,7 @@ export default class Todo extends React.Component {
   }
   handleCheck() {
     this.state.statuss = !this.state.statuss;
-    console.log(this.state.statuss);
+    
     if (this.state.statuss === true) {
       this.fontS = "oblique";
       this.fontD = "line-through";
@@ -33,7 +33,7 @@ export default class Todo extends React.Component {
       fontStyle: this.fontS,
       textDecoration: this.fontD
     };
-    console.log(this.statuss);
+  
     return (
       <div className="App" style={styles}>
         <input
